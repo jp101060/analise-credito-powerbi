@@ -32,6 +32,8 @@ engine = create_engine("postgresql+psycopg2://usuário:senha@localhost:5432/loan
 df.to_sql("loans", engine, if_exists="replace", index=False)
 
 print("Dados importados para o PostgreSQL!")
+
+
 📈 Conexão ao Power BI
 Após a importação, a base loan_risk foi conectada ao Power BI para as etapas de transformação, análise e visualização.
 
