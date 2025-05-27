@@ -136,9 +136,9 @@ Visualização de dados interativa
 Este projeto continuará evoluindo com novos aprendizados, dados e ferramentas.
 
 📁 Arquivos
-Default_Fin.csv: base original (não incluída por política de uso do Kaggle)
+Default_Fin.csv: base original (não incluída por política de uso do Kaggle, mas o link para acesso ao dataset está disponível)
 
-loan_risk.sql: estrutura do banco (opcional)
+loan_risk.sql: estrutura do banco 
 
 Dashboards no Power BI (.pbix)
 
