@@ -32,6 +32,8 @@ engine = create_engine("postgresql+psycopg2://usuário:senha@localhost:5432/loan
 df.to_sql("loans", engine, if_exists="replace", index=False)
 
 print("Dados importados para o PostgreSQL!")
+
+
 📈 Conexão ao Power BI
 Após a importação, a base loan_risk foi conectada ao Power BI para as etapas de transformação, análise e visualização.
 
@@ -134,9 +136,9 @@ Visualização de dados interativa
 Este projeto continuará evoluindo com novos aprendizados, dados e ferramentas.
 
 📁 Arquivos
-Default_Fin.csv: base original (não incluída por política de uso do Kaggle)
+Default_Fin.csv: base original (não incluída por política de uso do Kaggle, mas o link para acesso ao dataset está disponível)
 
-loan_risk.sql: estrutura do banco (opcional)
+loan_risk.sql: estrutura do banco 
 
 Dashboards no Power BI (.pbix)
 
